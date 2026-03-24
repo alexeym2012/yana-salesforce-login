@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" width="250" height="125">
+  <!-- Clipboard Icon -->
+  <g transform="translate(20, 12)">
+    <!-- Clipboard body -->
+    <rect x="0" y="10" width="44" height="56" rx="5" fill="none" stroke="#032D60" stroke-width="3"/>
+    <!-- Clipboard clip -->
+    <rect x="10" y="4" width="24" height="14" rx="4" fill="#032D60"/>
+    <circle cx="22" cy="11" r="3" fill="#FFFFFF"/>
+
+    <!-- Resume lines -->
+    <rect x="10" y="28" width="24" height="3" rx="1.5" fill="#032D60" opacity="0.6"/>
+    <rect x="10" y="36" width="18" height="3" rx="1.5" fill="#032D60" opacity="0.4"/>
+
+    <!-- Checkmark items -->
+    <circle cx="13" cy="48" r="3.5" fill="none" stroke="#032D60" stroke-width="1.5" opacity="0.5"/>
+    <path d="M11 48 L12.5 50 L15.5 46" stroke="#0176D3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="20" y="46" width="16" height="3" rx="1.5" fill="#032D60" opacity="0.4"/>
+
+    <circle cx="13" cy="58" r="3.5" fill="none" stroke="#032D60" stroke-width="1.5" opacity="0.5"/>
+    <path d="M11 58 L12.5 60 L15.5 56" stroke="#0176D3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="20" y="56" width="13" height="3" rx="1.5" fill="#032D60" opacity="0.4"/>
+  </g>
+
+  <!-- Recruiting Management text -->
+  <text x="78" y="52" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#032D60" letter-spacing="-0.3">Recruiting</text>
+  <text x="78" y="78" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#032D60" letter-spacing="-0.3">Management</text>
+
+  <!-- Powered by Salesforce -->
+  <text x="78" y="100" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#706E6B">Powered by Salesforce</text>
+</svg>
