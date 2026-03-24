@@ -27,6 +27,37 @@
             text-align: center;
         }
 
+        .logo-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+
+        .logo-header svg {
+            width: 48px;
+            height: 48px;
+            flex-shrink: 0;
+        }
+
+        .logo-header-text {
+            text-align: left;
+        }
+
+        .logo-header-text .logo-title {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            margin-bottom: 2px;
+        }
+
+        .logo-header-text .logo-subtitle {
+            font-size: 11px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
         .logo-illustration {
             width: 220px;
             height: 180px;
@@ -111,6 +142,30 @@
 </head>
 <body>
     <div class="container">
+        <div class="logo-header">
+            <svg viewBox="0 0 64 76" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <!-- Clipboard body -->
+                <rect x="2" y="12" width="60" height="62" rx="6" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="3"/>
+                <!-- Clipboard clip -->
+                <rect x="14" y="4" width="36" height="18" rx="5" fill="rgba(255,255,255,0.9)"/>
+                <circle cx="32" cy="13" r="4" fill="rgba(255,255,255,0.3)"/>
+                <!-- Resume lines -->
+                <rect x="14" y="32" width="36" height="4" rx="2" fill="rgba(255,255,255,0.5)"/>
+                <rect x="14" y="42" width="26" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+                <!-- Checkmarks -->
+                <circle cx="18" cy="56" r="4.5" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+                <path d="M15.5 56 L17.5 58.5 L21 53.5" stroke="#4CD964" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <rect x="28" y="54" width="22" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+                <circle cx="18" cy="68" r="4.5" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+                <path d="M15.5 68 L17.5 70.5 L21 65.5" stroke="#4CD964" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <rect x="28" y="66" width="18" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+            </svg>
+            <div class="logo-header-text">
+                <div class="logo-title">Recruiting Management</div>
+                <div class="logo-subtitle">Powered by Salesforce</div>
+            </div>
+        </div>
+
         <div class="logo-illustration">
             <svg viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg" fill="none">
                 <!-- Clipboard / Document -->
@@ -168,9 +223,6 @@
                 <circle cx="236" cy="162" r="1.5" fill="rgba(255,255,255,0.3)"/>
             </svg>
         </div>
-
-        <h1>Recruiting Management</h1>
-        <p class="subtitle">Powered by Salesforce</p>
 
         <div class="features">
             <div class="feature">
